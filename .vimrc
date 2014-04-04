@@ -132,6 +132,7 @@ abbrev gart !php artisan
 abbrev gamr !php artisan migrate:rollback
 abbrev garm !php artisan migrate
 abbrev garms !php artisan migrate --seed
+abbrev ggr !php artisan migrate:rollback && php artisan migrate --seed
 " Auto-remove trailing spaces
 autocmd BufWritePre *.php :%s/\s\+$//e
  
