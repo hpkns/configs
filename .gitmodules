@@ -19,3 +19,9 @@
 [submodule ".vim/bundle/vim-addon"]
 	path = .vim/bundle/vim-addon
 	url = https://github.com/marcweber/vim-addon-mw-utils
+[submodule ".vim/bundle/tlib"]
+	path = .vim/bundle/tlib
+	url = https://github.com/tomtom/tlib_vim
+[submodule ".vim/bundle/snippets"]
+	path = .vim/bundle/snippets
+	url = https://github.com/honza/vim-snippets
