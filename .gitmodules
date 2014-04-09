@@ -25,3 +25,12 @@
 [submodule ".vim/bundle/snippets"]
 	path = .vim/bundle/snippets
 	url = https://github.com/honza/vim-snippets
+[submodule ".vim/bundle/vim-surround"]
+	path = .vim/bundle/vim-surround
+	url = https://github.com/tpope/vim-surround
+[submodule ".vim/bundle/vim-coffee-script"]
+	path = .vim/bundle/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script
+[submodule ".vim/bundle/html5"]
+	path = .vim/bundle/html5
+	url = https://github.com/othree/html5.vim
