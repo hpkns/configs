@@ -24,7 +24,7 @@
 	url = https://github.com/tomtom/tlib_vim
 [submodule ".vim/bundle/snippets"]
 	path = .vim/bundle/snippets
-	url = https://github.com/honza/vim-snippets
+	url = https://github.com/hpkns/vim-snippets
 [submodule ".vim/bundle/vim-surround"]
 	path = .vim/bundle/vim-surround
 	url = https://github.com/tpope/vim-surround
