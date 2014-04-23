@@ -72,7 +72,6 @@ nmap <C-k> <C-w>k
 nmap <C-l> <C-w>l
  
 "Resize vsplit
-nmap <C-v> :vertical resize +5<cr>
 nmap 25 :vertical resize 40<cr>
 nmap 50 <c-w>=
 nmap 75 :vertical resize 120<cr>
@@ -168,7 +167,8 @@ map <C-r> :CtrlPBufTag<cr>
 " I don't want to pull up these folders/files when calling CtrlP
 set wildignore+=*/vendor/**
 set wildignore+=*/public/forum/**
- 
+set wildignore+=*/_site/** 
+
 " Open splits
 nmap vs :vsplit<cr>
 nmap sp :split<cr>
