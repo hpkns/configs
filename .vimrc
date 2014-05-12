@@ -136,7 +136,9 @@ abbrev ggr !php artisan migrate:rollback && php artisan migrate --seed
 autocmd BufWritePre *.php :%s/\s\+$//e
  
 " Edit todo list for project
-nmap ,todo :e todo.txt<cr>
+nmap <leader>td :!cat >> todo.txt<cr>
+nmap <leader>tde :!clear && cat todo.txt<cr>
+nmap <leader>tdo :tabf todo.txt<cr>
  
 " Laravel framework commons
 nmap <leader>lr :e app/routes.php<cr>
