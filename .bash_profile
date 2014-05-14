@@ -10,6 +10,10 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
+alias gs='git status'
+alias gl='git log'
+alias gt='git log --graph --oneline --all'
+
 # Create simple aliases for colors
 export BLACK="\033[01;30m"
 export MAGENTA="\033[1;31m"
