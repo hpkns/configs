@@ -1,7 +1,7 @@
 Configs
 =======
 
-Get the best of Vim in just three commands. This package includes a verry nice `.vimrc` (i can say it’s nice becasue I didn’t write it, Jeffray Way did), and the most usefull vim plugins, including:
+Get the best of Vim in just three commands. This package includes a verry nice `.vimrc` (i can say it’s nice becasue I didn’t write it, [Jeffray Way](https://github.com/JeffreyWay) did), and the most usefull vim plugins, including:
 - auto-pairs
 - ctrlp.vim.git
 - emmet-vim
