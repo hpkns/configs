@@ -1,3 +1,6 @@
+" This config is based closely on Jeffray Way's (https://gist.github.com/JeffreyWay/6753834)
+" Made a coupple tweaks to better suit my needs
+
 execute pathogen#infect()
 
 set nocompatible   " Disable vi-compatibility
@@ -114,12 +117,6 @@ autocmd cursormoved * set hlsearch
  
 " Remove search results
 command! H let @/=""
- 
-" If you prefer the Omni-Completion tip window to close when a selection is
-" made, these lines close it on movement in insert mode or when leaving
-" insert mode
-" autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
-" autocmd InsertLeave * if pumvisible() == 0|pclose|endif
  
 " Abbreviations
 abbrev pft PHPUnit_Framework_TestCase
