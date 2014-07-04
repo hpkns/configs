@@ -101,7 +101,7 @@ highlight Search cterm=underline
 set directory=~/.vim/swap//
  
 " Run PHPUnit tests
-map <Leader>t :!phpunit %<cr>
+map <Leader>t :! clear && phpunit<cr>
  
 " Easy motion stuff
 let g:EasyMotion_leader_key = '<Leader>'
