@@ -14,8 +14,17 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-" Plugin 'joshdick/onedark.vim'
-" Plugin 'scrooloose/nerdtree.git'
+" Plugin 'gosukiwi/vim-atom-dark'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'kien/ctrlp.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'pangloss/vim-javascript'
+Plugin 'posva/vim-vue'
+Plugin 'mattn/emmet-vim'
+Plugin 'majutsushi/tagbar'
+Plugin 'tpope/vim-surround'
+Plugin 'vim-airline/vim-airline'
 
 call vundle#end()
 filetype plugin indent on
