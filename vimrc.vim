@@ -22,6 +22,12 @@ set incsearch
 "colorscheme atom-dark
 set background=dark
 colorscheme solarized
+highlight Search cterm=underline
+highlight vertsplit ctermbg=black ctermfg=black
+highlight LineNr ctermfg=110
+highlight Normal ctermbg=0
+highlight Comment ctermfg=green
+
 set guifont=menlo\ for\ powerline:h16
 set guioptions-=T " Removes top toolbar
 set guioptions-=r " Removes right hand scroll bar
@@ -104,12 +110,6 @@ nmap :sp :rightbelow sp<cr>
 " Quickly go forward or backward to buffer
 nmap :bp :BufSurfBack<cr>
 nmap :bn :BufSurfForward<cr>
-
-highlight Search cterm=underline
-highlight vertsplit ctermbg=black ctermfg=black
-highlight LineNr ctermfg=110
-highlight Normal ctermbg=0
-highlight Comment ctermfg=67
 
 " Swap files out of the project root
 " set backupdir=~/.vim/backup//
