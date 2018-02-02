@@ -23,10 +23,12 @@ set incsearch
 set background=dark
 colorscheme solarized
 highlight Search cterm=underline
-highlight vertsplit ctermbg=black ctermfg=black
+highlight vertsplit ctermbg=black ctermfg=yellow
 highlight LineNr ctermfg=110
 highlight Normal ctermbg=0
-highlight Comment ctermfg=green
+highlight Comment cterm=italic ctermfg=green
+highlight ColorColumn ctermbg=234
+highlight Normal guibg=NONE ctermbg=NONE
 
 set guifont=menlo\ for\ powerline:h16
 set guioptions-=T " Removes top toolbar
