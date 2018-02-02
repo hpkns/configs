@@ -23,8 +23,8 @@ set incsearch
 set background=dark
 colorscheme solarized
 highlight Search cterm=underline
-highlight vertsplit ctermbg=black ctermfg=yellow
-highlight LineNr ctermfg=110
+highlight vertsplit ctermbg=NONE ctermfg=yellow
+highlight LineNr ctermfg=110 ctermbg=NONE
 highlight Normal ctermbg=0
 highlight Comment cterm=italic ctermfg=green
 highlight ColorColumn ctermbg=234
